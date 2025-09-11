@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Edges";
+    font-style: bold;
+    font-weight: 900;
+    src: url("Edges.ttf");
+}
+
+@font-face {
+    font-family: "GTPlanar";
+    font-style: normal;
+    font-weight: 400;
+    src: url("GT-Planar-Regular-Trial-BF63bcd9a5c44bb.otf");
+}
+
+.Edges {
+    font-family: "Edges";
+}
+
+.GTPlanar {
+    font-family: "GTPlanar";
+}
