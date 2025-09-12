@@ -1,0 +1,20 @@
+.px-6 {
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.pl-7 {
+}
+
+.py-6 {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.fs-title {
+	font-size: 4.5rem;
+}
+
+.bg-black-50 {
+	background-color: #111111;
+}
