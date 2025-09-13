@@ -1,20 +1,81 @@
 .px-6 {
-	padding-left: 4rem;
-	padding-right: 4rem;
+    padding-left: 10rem;
+    padding-right: 10.5rem;
 }
 
-.pl-7 {
+.px-header {
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .py-6 {
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .fs-title {
-	font-size: 4.5rem;
+    font-size: clamp(2.5rem, 3.5vw, 4rem);
 }
 
 .bg-black-50 {
-	background-color: #111111;
+    background-color: #111111;
+}
+
+.bg-black-50-glass {
+    background-color: rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(5px);
+}
+
+main section {
+    padding: 0 4rem;
+    position: relative;
+    height: 91vh;
+    margin-top: 8vh;
+}
+
+/* hero section */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 91vh;
+    padding: 0 4rem;
+    margin: 0;
+    /* background-color: red; */
+}
+
+.hero > img {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* top: 0; */
+    width: 92%;
+    height: 98%;
+    z-index: -1;
+}
+
+.activitesduo .plane {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto;
+}
+
+.activitesduo .duoImgBottomLeft {
+    position: absolute;
+    bottom: 2rem;
+    left: 4.5rem;
+    width: 30%;
+    height: auto;
+}
+
+.activitesduo .duoImgTopRight {
+    position: absolute;
+    top: 2rem;
+    right: 4.5rem;
+    width: 30%;
+    height: auto;
 }
