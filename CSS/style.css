@@ -1,37 +1,37 @@
 .px-6 {
-    padding-left: 10rem;
-    padding-right: 10.5rem;
+	padding-left: 10rem;
+	padding-right: 10.5rem;
 }
 .py-6 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 }
 
 .px-header {
-    padding-left: 5rem;
-    padding-right: 5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
 }
 
 .fs-title {
-    font-size: clamp(2.5rem, 3.5vw, 4rem);
+	font-size: clamp(2rem, calc(3vw + 1rem), 4rem);
 }
 
 .bg-black-50 {
-    background-color: #111111;
+	background-color: #111111;
 }
 
 .bg-black-50-glass {
-    background-color: rgba(0, 0, 0, 0.253);
-    backdrop-filter: blur(5px);
+	background-color: rgba(0, 0, 0, 0.253);
+	backdrop-filter: blur(5px);
 }
 
 .nav-link.active {
-    color: white !important;
+	color: white !important;
 }
 /* Sections */
 /* ========================================================= */
 .btn img {
-    transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* .btn:hover {
@@ -39,49 +39,49 @@
 } */
 
 .btn:hover img {
-    transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 main section {
-    padding: 0 4rem;
-    position: relative;
-    height: 91vh;
-    margin-top: 8vh;
+	padding: 0 4rem;
+	position: relative;
+	min-height: 91vh;
+	margin-top: 8vh;
 }
 
 /* hero section */
 /* -------------------------------------------------------- */
 
 .hero {
-    position: relative;
-    width: 100%;
-    height: 91vh;
-    padding: 0 4rem;
-    margin: 0;
-    /* background-color: red; */
+	position: relative;
+	width: 100%;
+	height: 91vh;
+	padding: 0 4rem;
+	margin: 0;
+	/* background-color: red; */
 }
 
 .hero > img {
-    position: absolute;
-    top: 49%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* top: 0; */
-    width: 92%;
-    height: 98%;
-    z-index: -1;
+	position: absolute;
+	top: 49%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* top: 0; */
+	width: 92%;
+	height: 98%;
+	z-index: -1;
 }
 
 .heroBottom {
-    bottom: 3rem;
-    right: 6rem;
+	bottom: 3rem;
+	right: 6rem;
 }
 
 .meteo {
-    background-color: rgba(255, 255, 255, 0.164);
-    padding-bottom: 1rem;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+	background-color: rgba(255, 255, 255, 0.164);
+	padding-bottom: 1rem;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 }
 
 /* -------------------------------------------------------- */
@@ -89,50 +89,50 @@ main section {
 /* activites section */
 /* -------------------------------------------------------- */
 .activitesduo {
-    padding-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 .activitesduo .plane {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	height: auto;
 }
 
 .activitesduo .duoImgBottomLeft {
-    position: absolute;
-    bottom: 2rem;
-    left: 4.5rem;
-    width: 30%;
-    height: auto;
+	position: absolute;
+	bottom: 2rem;
+	left: 4.5rem;
+	width: 30%;
+	height: auto;
 }
 
 .activitesduo .duoImgTopRight {
-    position: absolute;
-    top: 1.5rem;
-    right: 4.5rem;
-    width: 30%;
-    height: auto;
+	position: absolute;
+	top: 1.5rem;
+	right: 4.5rem;
+	width: 30%;
+	height: auto;
 }
 
 #selector {
-    transition: top 0.3s ease; /* effet fluide */
-    pointer-events: none; /* ne bloque plus les clics */
+	transition: top 0.3s ease; /* effet fluide */
+	pointer-events: none; /* ne bloque plus les clics */
 }
 
 .more {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    color: white;
-    font-size: clamp(0.8rem, 1.5vw, 1rem);
-    margin: 0 10rem 0 auto;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	color: white;
+	font-size: clamp(0.8rem, 1.5vw, 1rem);
+	margin: 0 10rem 0 auto;
 }
 
 ul li {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 /* -------------------------------------------------------- */
@@ -140,21 +140,21 @@ ul li {
 /* Tarifs section */
 /* -------------------------------------------------------- */
 .cardTarifContainer {
-    gap: clamp(1rem, 5vw, 7rem);
+	gap: clamp(1rem, 5vw, 7rem);
 }
 
 .cardTarif {
-    width: 25rem;
-    height: auto;
+	width: 25rem;
+	height: auto;
 }
 
 .cardTarif img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .fullY {
-    height: 100%;
+	height: 100%;
 }
 
 /* -------------------------------------------------------- */
