@@ -137,11 +137,11 @@ function updateActiveLink() {
 }
 
 function initHeaderfixed() {
-    // passer le header en position fixed au scroll*
+    // passer le header en position fixed au scroll
     const header = document.getElementById("header");
 
     window.addEventListener("scroll", () => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 10) {
             header.classList.add("fixed-top");
             header.classList.remove("sticky-top");
         } else {
