@@ -193,7 +193,7 @@ ul li {
     transition: background-color 0.3s ease;
 }
 
-.hoverEffect:hover .text-white {
+.hoverEffect:hover {
     color: black !important;
     transition: color 0.3s ease;
 }
