@@ -1,82 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"
-		/>
-		<!-- ============================================= -->
-		<!-- pour ajouter les fonts -->
-		<link rel="stylesheet" href="./FONTS/font.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"
+        />
+        <!-- ============================================= -->
+        <!-- pour ajouter les fonts -->
+        <link rel="stylesheet" href="./FONTS/font.css" />
 
-		<!-- petit plus pour bootstrap -->
-		<link rel="stylesheet" href="./CSS/style.css" />
+        <!-- petit plus pour bootstrap -->
+        <link rel="stylesheet" href="./CSS/style.css" />
 
-		<!-- ============================================= -->
-		<title>ACF2L</title>
-		<link rel="icon" type="image/png" href="./IMG/icon/acf2L2.png" />
-	</head>
-	<body
-		class="container-fluid bg-black-50 p-0 m-0"
-		data-bs-spy="scroll"
-		data-bs-target="nav"
-		data-bs-offset="80"
-		tabindex="0"
-	>
-		<!-- corps de la page -->
-		<!-- ================================================================================ -->
-		<header
-			class="container-fluid py-4 px-header sticky-top z-3 GTPlanar bg-black-50"
-			id="header"
-		></header>
-		<main id="app"></main>
-		<footer id="footer" class="container-fluid py-4 px-6 GTPlanar"></footer>
-		<!-- ================================================================================ -->
+        <!-- ============================================= -->
+        <title>ACF2L</title>
+        <link rel="icon" type="image/png" href="./IMG/icon/acf2L2.png" />
+    </head>
+    <body
+        class="container-fluid bg-black-50 p-0 m-0"
+        data-bs-spy="scroll"
+        data-bs-target="nav"
+        data-bs-offset="80"
+        tabindex="0"
+    >
+        <!-- corps de la page -->
+        <!-- ================================================================================ -->
+        <header
+            class="container-fluid py-4 px-header sticky-top z-3 GTPlanar bg-black-50"
+            id="header"
+        ></header>
+        <main id="app"></main>
+        <footer
+            id="footer"
+            class="container-fluid py-4 px-5 GTPlanar position-relative w-100 h-100vh overflow-hidden"
+        ></footer>
+        <!-- ================================================================================ -->
 
-		<!-- import JS script -->
-		<!-- ================================================================================ -->
-		<!-- module pour le routage et autre -->
-		<script type="module" src="./JS/app.js"></script>
-		<!-- bootstrap -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-			crossorigin="anonymous"
-		></script>
-		<!-- widget météo -->
-		<script>
-			!(function (d, s, id) {
-				var js,
-					fjs = d.getElementsByTagName(s)[0];
-				if (!d.getElementById(id)) {
-					js = d.createElement(s);
-					js.id = id;
-					js.src = "https://weatherwidget.io/js/widget.min.js";
-					fjs.parentNode.insertBefore(js, fjs);
-				}
-			})(document, "script", "weatherwidget-io-js");
+        <!-- import JS script -->
+        <!-- ================================================================================ -->
+        <!-- module pour le routage et autre -->
+        <script type="module" src="./JS/app.js"></script>
+        <!-- bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+        <!-- widget météo -->
+        <script>
+            !(function (d, s, id) {
+                var js,
+                    fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://weatherwidget.io/js/widget.min.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            })(document, "script", "weatherwidget-io-js");
 
-			// Initialize Lenis
-			const lenis = new Lenis({
-				autoRaf: true,
-			});
+            // Initialize Lenis
+            const lenis = new Lenis({
+                autoRaf: true,
+            });
 
-			// Listen for the scroll event and log the event data
-			lenis.on("scroll", (e) => {
-				console.log(e);
-			});
-		</script>
+            // Listen for the scroll event and log the event data
+            lenis.on("scroll", (e) => {
+                console.log(e);
+            });
+        </script>
 
-		<!-- Lenis pour le scroll -->
-		<script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
-		<!-- ================================================================================ -->
-	</body>
+        <!-- Lenis pour le scroll -->
+        <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+        <!-- ================================================================================ -->
+    </body>
 </html>
