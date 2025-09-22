@@ -187,3 +187,18 @@ ul li {
     font-size: clamp(3rem, calc(10vw + 1rem), 13rem);
     /* margin-top: -2rem; */
 }
+
+.hoverEffect:hover {
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+
+.hoverEffect:hover {
+    color: black !important;
+    transition: color 0.3s ease;
+}
+
+.hoverEffect:hover img {
+    filter: invert(1);
+    transition: filter 0.3s ease;
+}
