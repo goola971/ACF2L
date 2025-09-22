@@ -52,7 +52,71 @@
 	</div>
 	<button
 		class="col-auto d-flex d-lg-none align-items-center justify-content-center btn"
+		id="mobileMenuToggle"
+		type="button"
+		data-bs-toggle="collapse"
+		data-bs-target="#mobileMenu"
+		aria-controls="mobileMenu"
+		aria-expanded="false"
+		aria-label="Toggle navigation"
 	>
 		<img src="../IMG/icon/menuBurger.svg" alt="Menu Burger" />
 	</button>
+</div>
+
+<!-- mobile -->
+<div class="collapse d-lg-none" id="mobileMenu">
+	<div class="text-white p-4">
+		<nav>
+			<ul class="nav flex-column GTPlanar">
+				<li class="nav-item mb-3">
+					<a
+						href="#hero"
+						class="nav-link text-white text-decoration-none"
+						>Accueil</a
+					>
+				</li>
+				<li class="nav-item mb-3">
+					<a
+						href="#activites"
+						class="nav-link text-white text-decoration-none"
+						>Activités</a
+					>
+				</li>
+				<li class="nav-item mb-3">
+					<a
+						href="#categories"
+						class="nav-link text-white text-decoration-none"
+						>ULM</a
+					>
+				</li>
+				<li class="nav-item mb-3">
+					<a
+						href="#tarifs"
+						class="nav-link text-white text-decoration-none"
+						>Tarifs</a
+					>
+				</li>
+				<li class="nav-item mb-4">
+					<a
+						href="#moyens"
+						class="nav-link text-white text-decoration-none"
+						>Moyens</a
+					>
+				</li>
+			</ul>
+		</nav>
+
+		<a
+			href="#tarifs"
+			class="btn btn-light d-flex align-items-center rounded-pill w-100 justify-content-center"
+		>
+			<span class="fw-bold Edges">Réservation</span>
+			<div
+				class="d-flex justify-content-center align-items-center p-2 rounded-circle ms-3 bg-black"
+			>
+				<img src="../IMG/icon/arrowTopRight.svg" alt="arrowTopRight" />
+			</div>
+		</a>
+	</div>
 </div>
